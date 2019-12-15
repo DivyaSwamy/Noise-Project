@@ -10,7 +10,6 @@ and correlations were calculated) for the interested reader to develope their ow
 You may use them as is but based on the needs and parameters of individual experiments they most 
 likely will need to be revised. 
 
-
 ###  (1) power_spectra_stack.m
  This file takes in an image stack and calculates the power spectra after spatial smoothing. The output **ps** 
  is a 3D matrix which stores power spectra for the entire stack.
