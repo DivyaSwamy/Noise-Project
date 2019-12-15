@@ -13,8 +13,7 @@ end
 
 index=find(freq>freq_lim1 & freq<=freq_lim2);
 xx=freq(index); yy=trace(index); yy=smooth(yy,3);
-% Yr smoothing window should frequency dependent. 
-% xx1=freq(index1); yy1=trace(index1); yy1=smooth(yy1,9);
+
 
 % Start fitting
 s=fitoptions('Method','NonlinearLeastSquares','Lower',[0 0]);
