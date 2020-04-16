@@ -3,6 +3,7 @@
 
 Repository with codes used to calculate power spectra and correlation maps 
 presented in the paper **_Noise analysis of cytosolic calcium image data_** .
+https://www.sciencedirect.com/science/article/pii/S0143416019302210
 
 These codes are presented as a guide(to illustrate how power spectra 
 and correlations were calculated) for the interested reader to develope their own codes for analysis.
@@ -15,7 +16,7 @@ likely will need to be revised.
  is a 3D matrix which stores power spectra for the entire stack.
  
 ### (2) Calculate_PSM_stack.m
-Using matrix ps, this file constructs power spectral maps as shown in Fig.3 of the manuscript.
+Using matrix **ps** , this file constructs power spectral maps as shown in Fig.3 of the manuscript.
 
 ### (3) Stack_cross_correlation.m
 File that calls function section_cc_nn_curves.m to calculate correlations for an image stack.
