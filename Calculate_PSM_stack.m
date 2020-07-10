@@ -1,8 +1,8 @@
 function[RatioMat_PS]=Calculate_PSM_stack(ps,split,freq1,freq2,freq3,freq4,sections,spread)
-    %INPUT
+    % INPUT
     % ps = power spectrum  for images stack
-    %in dimensions ( num of timesubsections/ outersections, sections,factor)
-    % from  ps we build the PSM. 
+    % in dimensions (num of timesubsections/ outersections, sections,factor)
+    % from  ps I build the Power Spectrum Map (PSM). 
     % freq1-4 represent the low and high frequency range.
     % sections  = reduced dimensions of the image
     % spread = sqrt(sections)
